@@ -1,0 +1,64 @@
+{
+  "tests": [
+    {
+      "name": "HTML Parse",
+      "setup": "sudo -H pip3 install pytest requests bs4",
+      "run": "pytest tests/parsertest.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 25
+    },
+    {
+      "name": "HTML Parse Menu",
+      "setup": "sudo -H pip3 install pytest requests bs4",
+      "run": "pytest tests/parsertest_menu.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 15
+    },
+    {
+      "name": "HTML Parse Tab",
+      "setup": "sudo -H pip3 install pytest requests bs4",
+      "run": "pytest tests/parsertest_menu_tab.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 11,
+      "points": 10
+    },
+    {
+      "name": "Server Content",
+      "setup": "sudo -H pip3 install pytest mocket requests",
+      "run": "python src/server/server.py & sleep 1 && pytest tests/servertest_content.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 30
+    },
+    {
+      "name": "Server Desc",
+      "setup": "sudo -H pip3 install pytest mocket requests",
+      "run": "python src/server/server.py & sleep 1 && pytest tests/servertest_desc.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Server Status",
+      "setup": "sudo -H pip3 install pytest mocket requests",
+      "run": "python src/server/server.py & sleep 1 && pytest tests/servertest_status.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    }
+  ]
+}

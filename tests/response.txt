@@ -1,0 +1,650 @@
+HTTP/1.1 200 OK
+Server: nginx/1.10.3
+Date: Sun, 02 Apr 2023 02:11:21 GMT
+Content-Type: text/html; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: MoodleSession=p71vopfmk3hkm0ui49b6ukv2nf; path=/; secure
+Expires: Mon, 20 Aug 1969 09:23:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Content-Language: en
+Content-Script-Type: text/javascript
+Content-Style-Type: text/css
+X-UA-Compatible: IE=edge
+Cache-Control: post-check=0, pre-check=0, no-transform
+Last-Modified: Sun, 02 Apr 2023 02:11:21 GMT
+Accept-Ranges: none
+Vary: Accept-Encoding
+
+<!DOCTYPE html>
+
+<html  dir="ltr" lang="en" xml:lang="en">
+<head>
+    <title>myITS Classroom</title>
+    <link rel="shortcut icon" href="https://classroom.its.ac.id/theme/image.php/_s/remui/theme/1676519784/favicon" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="moodle, myITS Classroom" />
+<link rel="stylesheet" type="text/css" href="https://classroom.its.ac.id/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.css" /><script id="firstthemesheet" type="text/css">/** Required in order to fix style inclusion problems in IE with YUI **/</script><link rel="stylesheet" type="text/css" href="https://classroom.its.ac.id/theme/styles.php/_s/remui/1676519784_1622798001/all" />
+<script type="text/javascript">
+//<![CDATA[
+var M = {}; M.yui = {};
+M.pageloadstarttime = new Date();
+M.cfg = {"wwwroot":"https:\/\/classroom.its.ac.id","sesskey":"xtFexElZNC","sessiontimeout":"14400","themerev":"1676519784","slasharguments":1,"theme":"remui","iconsystemmodule":"core\/icon_system_fontawesome","jsrev":"1676519785","admin":"admin","svgicons":false,"usertimezone":"Asia\/Jakarta","contextid":2,"langrev":1676519785,"templaterev":"1676519785"};var yui1ConfigFn = function(me) {if(/-skin|reset|fonts|grids|base/.test(me.name)){me.type='css';me.path=me.path.replace(/\.js/,'.css');me.path=me.path.replace(/\/yui2-skin/,'/assets/skins/sam/yui2-skin')}};
+var yui2ConfigFn = function(me) {var parts=me.name.replace(/^moodle-/,'').split('-'),component=parts.shift(),module=parts[0],min='-min';if(/-(skin|core)$/.test(me.name)){parts.pop();me.type='css';min=''}
+if(module){var filename=parts.join('-');me.path=component+'/'+module+'/'+filename+min+'.'+me.type}else{me.path=component+'/'+component+'.'+me.type}};
+YUI_config = {"debug":false,"base":"https:\/\/classroom.its.ac.id\/lib\/yuilib\/3.17.2\/","comboBase":"https:\/\/classroom.its.ac.id\/theme\/yui_combo.php?","combine":true,"filter":null,"insertBefore":"firstthemesheet","groups":{"yui2":{"base":"https:\/\/classroom.its.ac.id\/lib\/yuilib\/2in3\/2.9.0\/build\/","comboBase":"https:\/\/classroom.its.ac.id\/theme\/yui_combo.php?","combine":true,"ext":false,"root":"2in3\/2.9.0\/build\/","patterns":{"yui2-":{"group":"yui2","configFn":yui1ConfigFn}}},"moodle":{"name":"moodle","base":"https:\/\/classroom.its.ac.id\/theme\/yui_combo.php?m\/1676519785\/","combine":true,"comboBase":"https:\/\/classroom.its.ac.id\/theme\/yui_combo.php?","ext":false,"root":"m\/1676519785\/","patterns":{"moodle-":{"group":"moodle","configFn":yui2ConfigFn}},"filter":null,"modules":{"moodle-core-tooltip":{"requires":["base","node","io-base","moodle-core-notification-dialogue","json-parse","widget-position","widget-position-align","event-outside","cache-base"]},"moodle-core-formchangechecker":{"requires":["base","event-focus","moodle-core-event"]},"moodle-core-lockscroll":{"requires":["plugin","base-build"]},"moodle-core-maintenancemodetimer":{"requires":["base","node"]},"moodle-core-notification":{"requires":["moodle-core-notification-dialogue","moodle-core-notification-alert","moodle-core-notification-confirm","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-core-notification-dialogue":{"requires":["base","node","panel","escape","event-key","dd-plugin","moodle-core-widget-focusafterclose","moodle-core-lockscroll"]},"moodle-core-notification-alert":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-confirm":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-exception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-ajaxexception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-actionmenu":{"requires":["base","event","node-event-simulate"]},"moodle-core-handlebars":{"condition":{"trigger":"handlebars","when":"after"}},"moodle-core-chooserdialogue":{"requires":["base","panel","moodle-core-notification"]},"moodle-core-blocks":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification"]},"moodle-core-event":{"requires":["event-custom"]},"moodle-core-popuphelp":{"requires":["moodle-core-tooltip"]},"moodle-core-languninstallconfirm":{"requires":["base","node","moodle-core-notification-confirm","moodle-core-notification-alert"]},"moodle-core-dragdrop":{"requires":["base","node","io","dom","dd","event-key","event-focus","moodle-core-notification"]},"moodle-core_availability-form":{"requires":["base","node","event","event-delegate","panel","moodle-core-notification-dialogue","json"]},"moodle-backup-confirmcancel":{"requires":["node","node-event-simulate","moodle-core-notification-confirm"]},"moodle-backup-backupselectall":{"requires":["node","event","node-event-simulate","anim"]},"moodle-course-formatchooser":{"requires":["base","node","node-event-simulate"]},"moodle-course-util":{"requires":["node"],"use":["moodle-course-util-base"],"submodules":{"moodle-course-util-base":{},"moodle-course-util-section":{"requires":["node","moodle-course-util-base"]},"moodle-course-util-cm":{"requires":["node","moodle-course-util-base"]}}},"moodle-course-management":{"requires":["base","node","io-base","moodle-core-notification-exception","json-parse","dd-constrain","dd-proxy","dd-drop","dd-delegate","node-event-delegate"]},"moodle-course-modchooser":{"requires":["moodle-core-chooserdialogue","moodle-course-coursebase"]},"moodle-course-categoryexpander":{"requires":["node","event-key"]},"moodle-course-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-course-coursebase","moodle-course-util"]},"moodle-form-shortforms":{"requires":["node","base","selector-css3","moodle-core-event"]},"moodle-form-passwordunmask":{"requires":[]},"moodle-form-dateselector":{"requires":["base","node","overlay","calendar"]},"moodle-question-preview":{"requires":["base","dom","event-delegate","event-key","core_question_engine"]},"moodle-question-searchform":{"requires":["base","node"]},"moodle-question-chooser":{"requires":["moodle-core-chooserdialogue"]},"moodle-availability_completion-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_date-form":{"requires":["base","node","event","io","moodle-core_availability-form"]},"moodle-availability_grade-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_group-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_grouping-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_profile-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_xp-form":{"requires":["base","node","event","handlebars","moodle-core_availability-form"]},"moodle-mod_assign-history":{"requires":["node","transition"]},"moodle-mod_customcert-rearrange":{"requires":["dd-delegate","dd-drag"]},"moodle-mod_quiz-toolboxes":{"requires":["base","node","event","event-key","io","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-slot","moodle-core-notification-ajaxexception"]},"moodle-mod_quiz-autosave":{"requires":["base","node","event","event-valuechange","node-event-delegate","io-form"]},"moodle-mod_quiz-util":{"requires":["node","moodle-core-actionmenu"],"use":["moodle-mod_quiz-util-base"],"submodules":{"moodle-mod_quiz-util-base":{},"moodle-mod_quiz-util-slot":{"requires":["node","moodle-mod_quiz-util-base"]},"moodle-mod_quiz-util-page":{"requires":["node","moodle-mod_quiz-util-base"]}}},"moodle-mod_q
+2000
+uiz-quizbase":{"requires":["base","node"]},"moodle-mod_quiz-questionchooser":{"requires":["moodle-core-chooserdialogue","moodle-mod_quiz-util","querystring-parse"]},"moodle-mod_quiz-modform":{"requires":["base","node","event"]},"moodle-mod_quiz-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-base","moodle-mod_quiz-util-page","moodle-mod_quiz-util-slot","moodle-course-util"]},"moodle-message_airnotifier-toolboxes":{"requires":["base","node","io"]},"moodle-block_xp-notification":{"requires":["base","node","handlebars","button-plugin","moodle-core-notification-dialogue"]},"moodle-block_xp-rulepicker":{"requires":["base","node","handlebars","moodle-core-notification-dialogue"]},"moodle-block_xp-filters":{"requires":["base","node","moodle-core-dragdrop","moodle-core-notification-confirm","moodle-block_xp-rulepicker"]},"moodle-filter_glossary-autolinker":{"requires":["base","node","io-base","json-parse","event-delegate","overlay","moodle-core-event","moodle-core-notification-alert","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-filter_mathjaxloader-loader":{"requires":["moodle-core-event"]},"moodle-editor_atto-editor":{"requires":["node","transition","io","overlay","escape","event","event-simulate","event-custom","node-event-html5","node-event-simulate","yui-throttle","moodle-core-notification-dialogue","moodle-core-notification-confirm","moodle-editor_atto-rangy","handlebars","timers","querystring-stringify"]},"moodle-editor_atto-plugin":{"requires":["node","base","escape","event","event-outside","handlebars","event-custom","timers","moodle-editor_atto-menu"]},"moodle-editor_atto-menu":{"requires":["moodle-core-notification-dialogue","node","event","event-custom"]},"moodle-editor_atto-rangy":{"requires":[]},"moodle-report_eventlist-eventfilter":{"requires":["base","event","node","node-event-delegate","datatable","autocomplete","autocomplete-filters"]},"moodle-report_loglive-fetchlogs":{"requires":["base","event","node","io","node-event-delegate"]},"moodle-gradereport_grader-gradereporttable":{"requires":["base","node","event","handlebars","overlay","event-hover"]},"moodle-gradereport_history-userselector":{"requires":["escape","event-delegate","event-key","handlebars","io-base","json-parse","moodle-core-notification-dialogue"]},"moodle-tool_capability-search":{"requires":["base","node"]},"moodle-tool_lp-dragdrop-reorder":{"requires":["moodle-core-dragdrop"]},"moodle-tool_monitor-dropdown":{"requires":["base","event","node"]},"moodle-assignfeedback_editpdf-editor":{"requires":["base","event","node","io","graphics","json","event-move","event-resize","transition","querystring-stringify-simple","moodle-core-notification-dialog","moodle-core-notification-alert","moodle-core-notification-warning","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-atto_accessibilitychecker-button":{"requires":["color-base","moodle-editor_atto-plugin"]},"moodle-atto_accessibilityhelper-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_align-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_bold-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_charmap-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_clear-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_collapse-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_emojipicker-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_emoticon-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_equation-button":{"requires":["moodle-editor_atto-plugin","moodle-core-event","io","event-valuechange","tabview","array-extras"]},"moodle-atto_h5p-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_html-beautify":{},"moodle-atto_html-button":{"requires":["promise","moodle-editor_atto-plugin","moodle-atto_html-beautify","moodle-atto_html-codemirror","event-valuechange"]},"moodle-atto_html-codemirror":{"requires":["moodle-atto_html-codemirror-skin"]},"moodle-atto_image-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_indent-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_italic-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_link-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-usedfiles":{"requires":["node","escape"]},"moodle-atto_media-button":{"requires":["moodle-editor_atto-plugin","moodle-form-shortforms"]},"moodle-atto_noautolink-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_orderedlist-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_recordrtc-button":{"requires":["moodle-editor_atto-plugin","moodle-atto_recordrtc-recording"]},"moodle-atto_recordrtc-recording":{"requires":["moodle-atto_recordrtc-button"]},"moodle-atto_rtl-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_strike-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_subscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_superscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_table-button":{"requires":["moodle-editor_atto-plugin","moodle-editor_atto-menu","event","event-valuechange"]},"moodle-atto_teamsmeeting-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_title-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_underline-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_undo-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_unorderedlist-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_wiris-button":{"requires":["moodle-editor_atto-plugin","get"]}}},"gallery":{"name":"gallery","base":"https:\/\/classroom.its.ac.id\/lib\/yuilib\/gallery\/","combine":true,"comboBase":"https:\/\/classroom.its.ac.id\/theme\/yui_combo.php?","ext":false,"root":"gallery\/1676519785\/","patterns":{"gallery-":{"group":"gallery"}}}},"modules":{"core_filepicker":{"name":"core_filepicker","fullpath":"https:\/\/classroom.its.ac.id\/lib\/javascript.php\/1676519785\/repository\/filepicker.js","requires":["base","node","node-event-simulate","json","async-queue","io-base","io-upload-iframe","io-form","yui2-treeview","panel","cookie","datatable","datatable-sort","resize-plugin","dd-plugin","escape","moodle-core_filepicker","moodle-core-notification-dialogue"]},"core_comment":{"name":"core_comment","fullpath":"https:\/\/classroom.its.ac.id\/lib\/javascript.php\/1676519785\/comment\/comment.js","requires":["base","io-base","node","json","yui2-animation","overlay","escape"]},"mathjax":{"name":"mathjax","fullpath":"https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/mathjax\/2.7.2\/MathJax.js?delayStartupUntil=configured"}}};
+M.yui.loader = {modules: {}};
+
+//]]>
+</script>
+
+
+<meta name="spadacourse" id="spadacourse" content="" />
+<meta name="spadadata" id="spadadata" content="3JXWytbU3dzF3NOHrdfW39yNhs3K4djdz9LYi5vh5c3QjYvT0dDX0ZWjz+jczZCD0tKGqZ7i" />
+<meta name="spada_cek_wwwroot" id="spada_cek_wwwroot" content="https%3A%2F%2Fclassroom.its.ac.id" />
+<!-- SPADA INDONESIA 1 START -->
+<script async defer>(function(w,d,s,l,i){var dtspada=document.querySelector('meta[name="spadadata"]').content; var wwwroot=document.querySelector('meta[name="spada_cek_wwwroot"]').content; w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;
+        j.src='https://spada.kemdikbud.go.id/moodle/plugin.js?version=3.4&www='+wwwroot+'&location='+encodeURIComponent(encodeURIComponent(String(window.location)))+'&data='+encodeURIComponent(dtspada)+'&ids='+Math.random().toString(36).substring(7)+'&id='+i+dl;
+        f.parentNode.insertBefore(j,f);
+        moveSpada(0);
+})(window,document,'script','dataLayer','f038e0f2-ce06-3494-96d6-2959ca2bb8b3');
+
+function moveSpada(i = 0) {
+    if(i < 15) {
+        var el=['page-content','region-main-box','region-main'];
+        var elemen
+2000
+tHook;
+        var elementMove;
+        if(document.getElementById('spada') !== null){
+            elementMove = 'spada';
+        }
+        else if(document.getElementById('tabs_spada') !== null){
+            elementMove = 'tabs_spada';
+        }
+        else {
+            elementMove = 'not_ready';
+        }
+
+        if(elementMove !== 'not_ready'){
+            $.each(el,function(a,b){
+                if(document.getElementById(b)){
+                    elementHook= b;
+                }
+            });
+            if(elementHook==''){
+                elementHook= 'block-region-content';
+            }
+            if(elementMove == 'tabs_spada'){
+                var active = document.getElementById(elementMove);
+                var prev = active.previousElementSibling;
+                var next = active.nextElementSibling;
+                document.getElementById(elementHook).appendChild(prev);
+            }
+            document.getElementById(elementHook).appendChild(  document.getElementById(elementMove) );
+        }
+        else{
+            setTimeout(function () {
+                moveSpada(i+1);
+            }, 1000);
+        }
+    }
+}
+
+</script>
+<!-- SPADA INDONESIA 1 END -->
+<link href='https://fonts.googleapis.com/css?family=Nunito:300,400,500,600,700,300italic' rel='stylesheet'
+        type='text/css'><!-- Global site tag (gtag.js) - Google Analytics --><script async src='https://www.googletagmanager.com/gtag/js?id=UA-157136492-2'></script>
+            <script>
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+
+              gtag('config', 'UA-157136492-2');
+            </script><!-- Google Analytics -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body  id="page-site-index" class="latest-frontpage full-sidebar remui_lite format-site course path-site dir-ltr lang-en yui-skin-sam yui3-skin-sam classroom-its-ac-id pagelayout-frontpage course-1 context-2 notloggedin mergemessagingsidebar">
+
+    
+    <nav class="fixed-top navbar navbar-light   navbar-expand moodle-has-zindex p-0 greedy" aria-label="Site navigation">
+        <div class="navbar-brand navbar-brand-center p-0 m-0 h-100">
+    
+                <a class="text-white d-flex align-items-center justify-content-center h-100 w-full text-decoration-none" href="https://classroom.its.ac.id" aria-label="Brand Logo">
+                    <span class="navbar-brand-logo mini" style="background-image: url(//classroom.its.ac.id/pluginfile.php/1/theme_remui/logomini/1676519784/myits-classroom-blue.png);
+                        background-position: center; background-size: contain; background-repeat: no-repeat;"></span>
+                    <span class="navbar-brand-logo" style="background-image: url(//classroom.its.ac.id/pluginfile.php/1/theme_remui/logo/1676519784/myits-classroom-blue.png);
+                        background-position: center; background-size: contain; background-repeat: no-repeat;">
+                    </span>
+                </a>
+        </div>
+        <div data-region="drawer-toggle" class="d-inline-block m-0 h-100">
+            <button aria-expanded="false" aria-controls="nav-drawer" type="button" class="btn nav-link float-sm-left  bg-transparent" data-action="toggle-drawer" data-side="left" data-preference="drawer-open-nav"><i class="icon fa fa-bars fa-fw " aria-hidden="true"  ></i><span class="sr-only">Side panel</span></button>
+        </div>
+        <div class="nav-item" id="toggleFullscreen" title="Toggle fullscreen">
+            <a class="nav-link icon m-0 px-3" data-toggle="fullscreen" href="#" role="button" aria-label="Toggle fullscreen" >
+                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="expand" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-expand fa-w-14 fa-3x"><path fill="currentColor" d="M0 180V56c0-13.3 10.7-24 24-24h124c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12H64v84c0 6.6-5.4 12-12 12H12c-6.6 0-12-5.4-12-12zM288 44v40c0 6.6 5.4 12 12 12h84v84c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12V56c0-13.3-10.7-24-24-24H300c-6.6 0-12 5.4-12 12zm148 276h-40c-6.6 0-12 5.4-12 12v84h-84c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h124c13.3 0 24-10.7 24-24V332c0-6.6-5.4-12-12-12zM160 468v-40c0-6.6-5.4-12-12-12H64v-84c0-6.6-5.4-12-12-12H12c-6.6 0-12 5.4-12 12v124c0 13.3 10.7 24 24 24h124c6.6 0 12-5.4 12-12z" class=""></path></svg>
+                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="compress" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-compress fa-w-14 fa-3x"><path fill="currentColor" d="M436 192H312c-13.3 0-24-10.7-24-24V44c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v84h84c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12zm-276-24V44c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v84H12c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h124c13.3 0 24-10.7 24-24zm0 300V344c0-13.3-10.7-24-24-24H12c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h84v84c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm192 0v-84h84c6.6 0 12-5.4 12-12v-40c0-6.6-5.4-12-12-12H312c-13.3 0-24 10.7-24 24v124c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12z" class=""></path></svg>
+            </a>
+        </div>
+    
+    
+        <ul class="navbar-nav h-100 wdm-custom-menus links">
+            <!-- custom_menu -->
+            <li class="dropdown nav-item">
+    <a class="dropdown-toggle nav-link" id="drop-down-6428e449485e86428e4493c0923" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#" aria-controls="drop-down-menu-6428e449485e86428e4493c0923">
+        Panduan Dosen
+    </a>
+    <div class="dropdown-menu" role="menu" id="drop-down-menu-6428e449485e86428e4493c0923" aria-labelledby="drop-down-6428e449485e86428e4493c0923">
+                <a class="dropdown-item" role="menuitem" href="https://classroom.its.ac.id/pluginfile.php/173660/mod_resource/content/1/Panduan%20myITS%20Classroom%20%28Untuk%20Dosen%29%20v2.0.pdf" target="_blank" title=" Unduh PDF"> Unduh PDF</a>
+                <a class="dropdown-item" role="menuitem" href="https://youtu.be/Klb1KLAg9Ys" target="_blank" title=" [Video] Panduan Membuat Video Asinkronus dengan Power Point"> [Video] Panduan Membuat Video Asinkronus dengan Power Point</a>
+    </div>
+</li><li class="dropdown nav-item">
+    <a class="dropdown-toggle nav-link" id="drop-down-6428e4494866b6428e4493c0924" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#" aria-controls="drop-down-menu-6428e4494866b6428e4493c0924">
+        Panduan Mahasiswa
+    </a>
+    <div class="dropdown-menu" role="menu" id="drop-down-menu-6428e4494866b6428e4493c0924" aria-labelledby="drop-down-6428e4494866b6428e4493c0924">
+                <a class="dropdown-item" role="menuitem" href="https://classroom.its.ac.id/pluginfile.php/173599/mod_resource/content/3/Panduan%20myITS%20Classroom%20%28Untuk%20Mahasiswa%29%20v1.0.pdf" target="_blank" title=" Unduh PDF"> Unduh PDF</a>
+    </div>
+</li>
+            <!-- page_heading_menu -->
+            
+        </ul>
+    
+    	<!-- collapsible menu -->
+        <button class="menu-toggle"><span><i class="fa fa-ellipsis-h" aria-hidden="true"></i></span></button>
+        <ul class='hidden-links hidden'></ul>
+    
+        <!-- login menu toggler on mobile -->
+        <button type="button" class="navbar-toggler">
+            <i class="icon fa fa-ellipsis-v" aria-hidden="true"></i>
+        </button>
+    
+        <ul class="nav navbar-nav ml-auto mr-2 h-100 right-menu justify-content-end">
+            
+            
+    
+            <!-- navbar_plugin_output : 'message', 'notifications' and 'chat sidebar' toggles -->
+            <li class="nav-item">
+            
+            </li>
+            <!-- user_menu -->
+            <li class="nav-item d-flex align-items-center">
+                <div class="usermenu nav-item dropdown user-menu login-menu"><a href="#" class="nav-link" data-toggle="dropdown" data-animation="scale-up">
+                <i class="icon fa fa-user"></i>Log in</a><div class="dropdown-menu  dropdown-menu-right loginddown p-15" role="menu"
+                    data-reg
+1000
+ion="popover-region-container">
+                    <form class="mb-0" action="https://classroom.its.ac.id/login/index.php" method="post" id="login">
+                        <div class="form-group">
+                            <label for="username" class="sr-only">Username</label>
+                            <input type="text" class="form-control" id="username" name="username"
+                            placeholder="Username">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="password" class="sr-only">Password</label>
+                            <input type="password" name="password" id="password" value=""
+                            class="form-control"placeholder=Password>
+                        </div>
+                        <div class="form-group">
+                <input type="hidden" name="logintoken" value="DbuyeGtl2ReFbPdatYBQKdJBnxcfeEYz">
+            </div>
+                        <div class="form-group clearfix">
+                            <div class="checkbox-custom checkbox-inline checkbox-primary float-left rememberpass">
+                                <input type="checkbox" id="rememberusername" name="rememberusername" value="1" />
+                                <label for="rememberusername">Remember username</label>
+                            </div>
+                            <a class="float-right" href="https://classroom.its.ac.id/login/forgot_password.php">Forgot Password?</a>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-block" id="loginbtn">Log in</button>
+                    </form><div class="potentialidp my-10 text-center"><label class="w-full">Log in using your account on</label><div class="button-group "><a class="btn btn-icon" href="https://classroom.its.ac.id/auth/oidc/" title="Masuk dengan myITS Login"></a></div></div><div class="button-group text-center"><a href='/login'>Don't have an account?</a></div></div></div>
+            </li>
+        </ul>
+        <!-- search_box -->
+    </nav>
+    
+    
+    <div id="nav-drawer" data-region="drawer" class="d-print-none moodle-has-zindex closed " aria-hidden="false" tabindex="-1">
+        <div id="nav-drawer-container">
+    
+                <nav class="list-group" aria-label="Site">
+                    <a class="list-group-item list-group-item-action active" href="https://classroom.its.ac.id/" data-key="home" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="1" data-nodetype="1" data-collapse="0" data-forceopen="1" data-isactive="1" data-hidden="0" title="Home" data-preceedwithhr="0"  aria-label="Home">
+                        <div class="ml-0">
+                            <div class="media">
+                                <span class="media-left">
+                                    <i class="icon fa fa-home fa-fw " aria-hidden="true"  ></i>
+                                </span>
+                                <span class="media-body">Home</span>
+                            </div>
+                        </div>
+                    </a>
+                </nav>
+            <div class="site-menubar-footer d-flex align-items-center" aria-label="Navigation Footer Menu" role="group">
+                    <a href="https://classroom.its.ac.id/course/index.php" class="w-100 d-flex align-items-center justify-content-center" data-placement="top" data-toggle="tooltip" aria-label="Course Archive Page" role="button">
+                        <span class="fa fa-archive" aria-hidden="true"></span>
+                    </a>
+            </div>
+        </div>
+    </div>
+
+<div id="page-wrapper">
+    <div>
+    <a class="sr-only sr-only-focusable" href="#maincontent">Skip to main content</a>
+</div><script type="text/javascript" src="https://classroom.its.ac.id/lib/javascript.php/1676519785/lib/babel-polyfill/polyfill.min.js"></script>
+<script type="text/javascript" src="https://classroom.its.ac.id/lib/javascript.php/1676519785/lib/mdn-polyfills/polyfill.js"></script>
+<script type="text/javascript" src="https://classroom.i
+2000
+ts.ac.id/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.js"></script><script type="text/javascript" src="https://classroom.its.ac.id/lib/javascript.php/1676519785/lib/javascript-static.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+document.body.className += ' jsenabled';
+//]]>
+</script>
+
+
+
+<meta name="spadacourse" id="spadacourse" content="" />
+<meta name="spadadata" id="spadadata" content="3JXWytbU3dzF3NOHrdfW39yNhs3K4djdz9LYi5vh5c3QjYvT0dDX0ZWjz+jczZCD0tKGqZ7i" />
+<meta name="spada_cek_wwwroot" id="spada_cek_wwwroot" content="https%3A%2F%2Fclassroom.its.ac.id" />
+<!-- SPADA INDONESIA 1 START -->
+
+<!-- SPADA INDONESIA 1 END -->
+
+    <div id="page">
+        <div class="edwiser-notice position-fixed mt-10" style="display: none; z-index: 1500;left: 50%;transform: translateX(-50%);" role="alert">
+        </div>
+        
+            <div>
+        <div id="page-content" class="row  m-0 w-p10 pb-0">
+            <div id="region-main-box" class="col-12">
+                <section data-region="blocks-column" class="d-print-none page-aside" aria-label="Blocks">
+                </section>
+
+<section id="region-main"  aria-label="Content">
+
+        <style>
+.sections-loader-wrapper {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    opacity: 0;
+    transition: opacity 300ms linear;
+    z-index: 1701;
+}
+.sections-loader-wrapper.show {
+    opacity: 1;
+}
+.section-loader-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(255,255,255,0.7);
+    z-index: 3;
+}
+.sections-loader-wrapper .sections-loader, .section-loader-wrapper .section-loader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.sections-loader-wrapper .sections-loader img, .section-loader-wrapper .section-loader img {
+    height: auto;
+    width:  140px;
+    max-width: 140px;
+}
+</style>
+<div class="sections-loader-wrapper show">
+    <div class="sections-loader">
+        <img class="icon" src="//classroom.its.ac.id/pluginfile.php/1/theme_remui/frontpageloader/1676519784/myits-classroom-blue.png"/>
+    </div>
+</div>
+<span class="notifications" id="user-notifications"></span>
+    <div class="home-sections ">
+    </div>
+
+    <section 
+    style="margin-top: -25px;">
+        <div role="main"><span id="maincontent"></span><br /></div>
+    </section>
+
+</section>
+
+            </div>
+        </div>
+    </div>
+    
+    </div>
+    <footer id="page-footer" class="py-3 bg-primary">
+        <div class="floating-buttons page-settings" data-html2canvas-ignore>
+            <button id="gotop" type="button" class=" btn btn-floating btn-primary  d-none align-items-center justify-content-center" data-toggle="tooltip" data-original-title="Go Top" data-placement="left" data-trigger="hover" aria-label="Go To Top" role="button">
+                <i class="fa fa-chevron-up" aria-hidden="true"></i>
+            </button>
+            
+    
+        </div>
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row m-0 p-0">
+                    <div class="col-12 col-sm-6 col-lg-3 text-xs-center">
+                        <div class="p-2">
+                            <h4 class="card-title mt-1 text-white font-weight-normal font-size-18"></h4>
+                            <div class="card-text text-white"><div class="text_to_html"><p><img src="https://www.its.ac.id/wp-content/uploads/2017/10/logo-its-1.png" alt="logo" class="img-responsive atto_image_button_text-top" width="140" height="90" /><br /></p></div></div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3 text-xs-center">
+                        <div class="p-2">
+                            <h4 class="card-title mt-1 text-white font-weight-normal font-size-18"></h4>
+                            <div class="card-text text-white"><div class="text_to_html"><p>Sukolilo | Manyar | Tjokroaminoto<br />Kampus Institut Teknologi<br />Sepuluh Nopember Surabaya<br />Phone: 031-5994251-54, 5947274, 5945472<br />Fax: 031-5923465, 5947845<br /></p></div></div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3 text-xs-center">
+                        <div class="p-2">
+                            <h4 class="card-title mt-1 text-white font-weight-normal font-size-18"></h4>
+                            <div class="card-text text-white"><div class="text_to_html"></div></div>
+                        </div>
+                    </div>
+    
+                    <div class="col-12 col-sm-6 col-lg-3 text-xs-center">
+                        <div class="py-2 px-1">
+                            <h4 class="card-title mt-1 text-white font-weight-normal font-size-18">Follow Us</h4>
+                            <p class="card-text">
+                                    <a href="https://id-id.facebook.com/InstitutTeknologiSepuluhNopember/" class="btn btn-icon btn-round social-facebook m-1"><i class="icon fa fa-facebook" aria-hidden="true"></i></a>
+                                    <a href="https://twitter.com/its_campus" class="btn btn-icon btn-round social-twitter m-1"><i class="icon fa fa-twitter" aria-hidden="true"></i></a>
+                                    <a href="https://www.instagram.com/its_campus/" class="btn btn-icon btn-round social-instagram m-1"><i class="icon fa fa-instagram" aria-hidden="true"></i></a>
+                                    <a href="https://www.youtube.com/user/itseurekatv" class="btn btn-icon btn-round social-youtube m-1"><i class="icon fa fa-youtube" aria-hidden="true"></i></a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="footer-bottom row mx-3 px-0 py-2">
+                <div class="site-footer-legal pt-2 col-md-6">
+                    <nav class="nav navbar-nav d-none" aria-label="Custom menu">
+                            <ul class="list-unstyled pt-3">
+                                                <li>Panduan Dosen</li>
+                                            <li>
+                                                <ul class="list-unstyled ml-3">
+                                                                    <li><a href="https://classroom.its.ac.id/pluginfile.php/173660/mod_resource/content/1/Panduan%20myITS%20Classroom%20%28Untuk%20Dosen%29%20v2.0.pdf" target="_blank" title=" Unduh PDF"> Unduh PDF</a></li>
+                                                                    <li><a href="https://youtu.be/Klb1KLAg9Ys" target="_blank" title=" [Video] Panduan Membuat Video Asinkronus dengan Power Point"> [Video] Panduan Membuat Video Asinkronus dengan Power Point</a></li>
+                                                </ul>
+                                            </li>
+                                                <li>Panduan Mahasiswa</li>
+                                            <li>
+                                                <ul class="list-unstyled ml-3">
+                                                                    <li><a href="https://classroom.its.ac.id/pluginfile.php/173599/mod_resource/content/3/Panduan%20myITS%20Classroom%20%28Untuk%20Mahasiswa%29%20v1.0.pdf" target="_blank" title=" Unduh PDF"> Unduh PDF</a></li>
+                                                </ul>
+                                            </li>
+                            </ul>
+                    </nav>
+                    <a href="0"></a>
+                </div>
+                <div class="site-footer-right pt-2 col-md-6 text-right">
+                    <div class="logininfo">You are not logged in. (<a href="https://classroom.its.ac.id/login/index.php">Log in</a>)</div>
+                    <div class="tool_usertours-resettourcontainer"></div>
+                    <a href="https://download.moodle.org/mobile?version=2019111801.07&amp;lang=en&amp;iosappid=633359593&amp;androidappid=com.moodle.moodlemobile">Get the mobile app</a>
+                </div>
+            </div>
+            <div id="co
+2000
+urse-footer"></div>
+            <script type="text/javascript">
+//<![CDATA[
+var require = {
+    baseUrl : 'https://classroom.its.ac.id/lib/requirejs.php/1676519785/',
+    // We only support AMD modules with an explicit define() statement.
+    enforceDefine: true,
+    skipDataMain: true,
+    waitSeconds : 0,
+
+    paths: {
+        jquery: 'https://classroom.its.ac.id/lib/javascript.php/1676519785/lib/jquery/jquery-3.4.1.min',
+        jqueryui: 'https://classroom.its.ac.id/lib/javascript.php/1676519785/lib/jquery/ui-1.12.1/jquery-ui.min',
+        jqueryprivate: 'https://classroom.its.ac.id/lib/javascript.php/1676519785/lib/requirejs/jquery-private'
+    },
+
+    // Custom jquery config map.
+    map: {
+      // '*' means all modules will get 'jqueryprivate'
+      // for their 'jquery' dependency.
+      '*': { jquery: 'jqueryprivate' },
+      // Stub module for 'process'. This is a workaround for a bug in MathJax (see MDL-60458).
+      '*': { process: 'core/first' },
+
+      // 'jquery-private' wants the real jQuery module
+      // though. If this line was not here, there would
+      // be an unresolvable cyclic dependency.
+      jqueryprivate: { jquery: 'jquery' }
+    }
+};
+
+//]]>
+</script>
+<script type="text/javascript" src="https://classroom.its.ac.id/lib/javascript.php/1676519785/lib/requirejs/require.min.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+M.util.js_pending("core/first");require(['core/first'], function() {
+;
+require(["media_videojs/loader"], function(loader) {
+    loader.setUp(function(videojs) {
+        videojs.options.flash.swf = "https://classroom.its.ac.id/media/player/videojs/videojs/video-js.swf";
+videojs.addLanguage('en', {
+  "Audio Player": "Audio Player",
+  "Video Player": "Video Player",
+  "Play": "Play",
+  "Pause": "Pause",
+  "Replay": "Replay",
+  "Current Time": "Current Time",
+  "Duration": "Duration",
+  "Remaining Time": "Remaining Time",
+  "Stream Type": "Stream Type",
+  "LIVE": "LIVE",
+  "Seek to live, currently behind live": "Seek to live, currently behind live",
+  "Seek to live, currently playing live": "Seek to live, currently playing live",
+  "Loaded": "Loaded",
+  "Progress": "Progress",
+  "Progress Bar": "Progress Bar",
+  "progress bar timing: currentTime={1} duration={2}": "{1} of {2}",
+  "Fullscreen": "Fullscreen",
+  "Non-Fullscreen": "Non-Fullscreen",
+  "Mute": "Mute",
+  "Unmute": "Unmute",
+  "Playback Rate": "Playback Rate",
+  "Subtitles": "Subtitles",
+  "subtitles off": "subtitles off",
+  "Captions": "Captions",
+  "captions off": "captions off",
+  "Chapters": "Chapters",
+  "Descriptions": "Descriptions",
+  "descriptions off": "descriptions off",
+  "Audio Track": "Audio Track",
+  "Volume Level": "Volume Level",
+  "You aborted the media playback": "You aborted the media playback",
+  "A network error caused the media download to fail part-way.": "A network error caused the media download to fail part-way.",
+  "The media could not be loaded, either because the server or network failed or because the format is not supported.": "The media could not be loaded, either because the server or network failed or because the format is not supported.",
+  "The media playback was aborted due to a corruption problem or because the media used features your browser did not support.": "The media playback was aborted due to a corruption problem or because the media used features your browser did not support.",
+  "No compatible source was found for this media.": "No compatible source was found for this media.",
+  "The media is encrypted and we do not have the keys to decrypt it.": "The media is encrypted and we do not have the keys to decrypt it.",
+  "Play Video": "Play Video",
+  "Close": "Close",
+  "Close Modal Dialog": "Close Modal Dialog",
+  "Modal Window": "Modal Window",
+  "This is a modal window": "This is a modal window",
+  "This modal can be closed by pressing the Escape key or activating the close button.": "This modal can be closed by pressing the Escape key or activating the close button.",
+  ", opens captions settings dialog": ", opens captions settings dialog",
+  ", opens subtitles settings dialog": ", opens subtitles settings dialog",
+  ", opens descriptions settings dialog": ", opens descriptions settings dialog",
+  ", selected": ", selected",
+  "captions settings": "captions settings",
+  "subtitles settings": "subititles settings",
+  "descriptions settings": "descriptions settings",
+  "Text": "Text",
+  "White": "White",
+  "Black": "Black",
+  "Red": "Red",
+  "Green": "Green",
+  "Blue": "Blue",
+  "Yellow": "Yellow",
+  "Magenta": "Magenta",
+  "Cyan": "Cyan",
+  "Background": "Background",
+  "Window": "Window",
+  "Transparent": "Transparent",
+  "Semi-Transparent": "Semi-Transparent",
+  "Opaque": "Opaque",
+  "Font Size": "Font Size",
+  "Text Edge Style": "Text Edge Style",
+  "None": "None",
+  "Raised": "Raised",
+  "Depressed": "Depressed",
+  "Uniform": "Uniform",
+  "Dropshadow": "Dropshadow",
+  "Font Family": "Font Family",
+  "Proportional Sans-Serif": "Proportional Sans-Serif",
+  "Monospace Sans-Serif": "Monospace Sans-Serif",
+  "Proportional Serif": "Proportional Serif",
+  "Monospace Serif": "Monospace Serif",
+  "Casual": "Casual",
+  "Script": "Script",
+  "Small Caps": "Small Caps",
+  "Reset": "Reset",
+  "restore all settings to the default values": "restore all settings to the default values",
+  "Done": "Done",
+  "Caption Settings Dialog": "Caption Settings Dialog",
+  "Beginning of dialog window. Escape will cancel and close the window.": "Beginning of dialog window. Escape will cancel and close the window.",
+  "End of dialog window.": "End of dialog window.",
+  "{1} is loading.": "{1} is loading."
+});
+
+    });
+});;
+
+require(
+[
+    'jquery',
+    'core_message/message_popover'
+],
+function(
+    $,
+    Popover
+) {
+    var toggle = $('#message-drawer-toggle-6428e4493c0786428e4493c0921');
+    Popover.init(toggle);
+});
+;
+M.util.js_pending('filter_oembed/oembed'); require(['filter_oembed/oembed'], function(amd) {amd.init(); M.util.js_complete('filter_oembed/oembed');});;
+
+require(['local_remuihomepage/frontpage'], function (FrontPage) {
+    FrontPage.init(1, 0);
+});
+;
+
+require(['jquery', 'theme_remui/color-picker'], function($) {
+    $('#6428e4494aab76428e4493c0925').spectrum({
+        color: '#013880',
+        cancelText: $('#6428e4494aab76428e4493c0925').data('canceltext'),
+        chooseText: $('#6428e4494aab76428e4493c0925').data('choosetext'),
+        showInput: true,
+        preferredFormat: "hex",
+        containerClassName: 'border-secondary',
+        replacerClassName: ' site-colorpicker-custom w-full bg-white border-0'
+    });
+});
+;
+
+    
+
+    require(['theme_remui/loader']);
+    require(['theme_remui/drawer'], function(mod) {
+        mod.init();
+    });
+;
+
+require(['jquery', 'theme_remui/loader', 'theme_remui/slick', 'theme_remui/breakpoints'], function ($) {
+    Breakpoints();
+    // Slick Responsive Display
+    // -----false-----------------------
+    $('.slick-course-slider').slick({
+      dots: false,
+      arrows: true,
+      infinite: false,
+      speed: 500,
+      prevArrow: $(".available-courses.button-container .btn-prev"),
+      nextArrow: $(".available-courses.button-container .btn-next"),
+      rtl: ($("html").attr("dir") == "rtl") ? true : false,
+      slidesToShow: 4,
+      slidesToScroll: 4,
+      responsive: [{
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 3
+          }
+        }, {
+          breakpoint: 800,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2
+          }
+        }, {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+      ]
+    })
+    .on('setPosition', function (event, slick) {
+      slick.$slides.css('height', slick.$slideTrack.height() + 'px');
+      $('.slick-slide > div').css('height', '100%');
+    });
+});
+;
+M.util.js_pending('core/notification'); require(['core/notification'], function(amd) {amd.init(2, []); M.util.js_complete('core/notification');});;
+M.util.js_pending('core/log'); require(['core/log'], function(amd) {amd.setConfig({"level":"warn"}); M.util.js_complete('core/log');});;
+M.uti
+bc7
+l.js_pending('core/page_global'); require(['core/page_global'], function(amd) {amd.init(); M.util.js_complete('core/page_global');});M.util.js_complete("core/first");
+});
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+M.str = {"moodle":{"lastmodified":"Last modified","name":"Name","error":"Error","info":"Information","yes":"Yes","no":"No","success":"Success","cancel":"Cancel","confirm":"Confirm","areyousure":"Are you sure?","closebuttontitle":"Close","unknownerror":"Unknown error","file":"File","url":"URL"},"repository":{"type":"Type","size":"Size","invalidjson":"Invalid JSON string","nofilesattached":"No files attached","filepicker":"File picker","logout":"Logout","nofilesavailable":"No files available","norepositoriesavailable":"Sorry, none of your current repositories can return files in the required format.","fileexistsdialogheader":"File exists","fileexistsdialog_editor":"A file with that name has already been attached to the text you are editing.","fileexistsdialog_filemanager":"A file with that name has already been attached","renameto":"Rename to \"{$a}\"","referencesexist":"There are {$a} alias\/shortcut files that use this file as their source","select":"Select"},"admin":{"confirmdeletecomments":"You are about to delete comments, are you sure?","confirmation":"Confirmation"},"theme_remui":{"sidebarpinned":"Sidebar pinned.","sidebarunpinned":"Sidebar unpinned.","pinsidebar":"Pin sidebar","unpinsidebar":"Unpin sidebar","changelog":"Changelog","homepagesettings":"Home Page Settings"},"local_remuihomepage":{"sectionupdated":"Section updated successfully. Publish to apply changes.","sectiondeleted":"Section deleted successfully. Publish to apply changes.","slidersection":"Slider Section","aboutussection":"About us Section","contactsection":"Contact Section","featuresection":"Feature Section","coursessection":"Courses Section","teamsection":"Team Section","testimonialsection":"Testimonial Section","htmlsection":"Html Section","separatorsection":"Separator Section","addsection":"Click to Add Section","homepagesettings":"Home Page Settings"},"debug":{"debuginfo":"Debug info","line":"Line","stacktrace":"Stack trace"},"langconfig":{"labelsep":": "}};
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+var transparentheader = "0";var appearanimation = "0";var appearanimationstyle = "animation-slide-bottom";
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+(function() {Y.use("moodle-filter_mathjaxloader-loader",function() {M.filter_mathjaxloader.configure({"mathjaxconfig":"MathJax.Hub.Config({\r\n    config: [\"Accessible.js\", \"Safe.js\"],\r\n    errorSettings: { message: [\"!\"] },\r\n    skipStartupTypeset: true,\r\n    messageStyle: \"none\"\r\n});\r\n","lang":"en"});
+});
+M.util.help_popups.setup(Y);
+ M.util.js_pending('random6428e4493c0926'); Y.on('domready', function() { M.util.js_complete("init");  M.util.js_complete('random6428e4493c0926'); });
+})();
+//]]>
+</script>
+
+        </div>
+    </footer>
+    
+</div>
+</body>
+</html>
+

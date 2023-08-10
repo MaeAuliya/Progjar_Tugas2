@@ -1,0 +1,16 @@
+HTTP/1.1 404 Not Found
+Server: nginx/1.10.3
+Date: Sun, 02 Apr 2023 02:26:52 GMT
+Content-Type: text/html; charset=iso-8859-1
+Content-Length: 282
+Connection: keep-alive
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>404 Not Found</title>
+</head><body>
+<h1>Not Found</h1>
+<p>The requested URL was not found on this server.</p>
+<hr>
+<address>Apache/2.4.29 (Ubuntu) Server at classroom.its.ac.id Port 443</address>
+</body></html>
